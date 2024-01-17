@@ -28,4 +28,8 @@ describe('Testes da tela Ideas', () => {
     expect(screen.getByTestId('mybtn1')).toBeInTheDocument();
   });
 
+  it('Existe botao excluir em Ideas?', () => {
+    expect(screen.getByTestId('mybtn2')).toBeInTheDocument();
+  });
+
 });
