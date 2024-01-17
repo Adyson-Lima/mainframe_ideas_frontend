@@ -12,7 +12,7 @@ describe('Testes da tela Ideas', () => {
     );
   });
 
-  it('Existe card em Ideas', () => {
+  it('Existe card em Ideas?', () => {
     expect(screen.getByTestId('mycard')).toBeInTheDocument();
   });
 
